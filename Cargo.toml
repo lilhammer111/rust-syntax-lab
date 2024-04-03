@@ -6,3 +6,48 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
+[[bin]]
+name = "reborrow_demo"
+path = "src/bin/borrow_lab/reborrow_demo.rs"
+
+[[bin]]
+name = "zip_demo"
+path = "src/bin/iterator_lab/zip_demo.rs"
+
+[[bin]]
+name = "closure_demo"
+path = "src/bin/iterator_lab/closure_demo.rs"
+
+[[bin]]
+name = "collect_demo"
+path = "src/bin/iterator_lab/collect_demo.rs"
+
+[[bin]]
+name = "fold_demo"
+path = "src/bin/iterator_lab/fold_demo.rs"
+
+[[bin]]
+name = "cons_demo"
+path = "src/bin/box_lab/cons_demo.rs"
+
+[[bin]]
+name = "type_demo"
+path = "src/bin/box_lab/type_demo.rs"
+
+[[bin]]
+name = "str_demo"
+path = "src/bin/box_lab/str_demo.rs"
+
+[[bin]]
+name = "slice_demo"
+path = "src/bin/slice_lab/slice_demo.rs"
+
+[[bin]]
+name = "slice_demo2"
+path = "src/bin/slice_lab/slice_demo2.rs"
+
+[[bin]]
+name = "box_demo"
+path = "src/bin/deref_lab/box_demo.rs"
+
