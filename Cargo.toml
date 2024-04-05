@@ -51,3 +51,10 @@ path = "src/bin/slice_lab/slice_demo2.rs"
 name = "box_demo"
 path = "src/bin/deref_lab/box_demo.rs"
 
+[[bin]]
+name = "drop_demo"
+path = "src/bin/smart_pointer_lab/drop_demo.rs"
+
+[[bin]]
+name = "cell_demo"
+path = "src/bin/smart_pointer_lab/cell_demo.rs"
