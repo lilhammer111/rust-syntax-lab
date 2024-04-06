@@ -29,15 +29,15 @@ path = "src/bin/iterator_lab/fold_demo.rs"
 
 [[bin]]
 name = "cons_demo"
-path = "src/bin/box_lab/cons_demo.rs"
+path = "src/bin/smart_pointer_lab/box/cons_demo.rs"
 
 [[bin]]
 name = "type_demo"
-path = "src/bin/box_lab/type_demo.rs"
+path = "src/bin/smart_pointer_lab/box/type_demo.rs"
 
 [[bin]]
 name = "str_demo"
-path = "src/bin/box_lab/str_demo.rs"
+path = "src/bin/smart_pointer_lab/box/str_demo.rs"
 
 [[bin]]
 name = "slice_demo"
@@ -49,7 +49,7 @@ path = "src/bin/slice_lab/slice_demo2.rs"
 
 [[bin]]
 name = "box_demo"
-path = "src/bin/deref_lab/box_demo.rs"
+path = "src/bin/smart_pointer_lab/deref_lab/box_demo.rs"
 
 [[bin]]
 name = "drop_demo"
@@ -57,4 +57,21 @@ path = "src/bin/smart_pointer_lab/drop_demo.rs"
 
 [[bin]]
 name = "cell_demo"
-path = "src/bin/smart_pointer_lab/cell_demo.rs"
+path = "src/bin/smart_pointer_lab/cell/scenario.rs"
+
+[[bin]]
+name = "usage"
+path = "src/bin/smart_pointer_lab/cell/usage.rs"
+
+[[bin]]
+name = "demo"
+path = "src/bin/smart_pointer_lab/ref_cell/demo.rs"
+
+
+# lifecycle
+[[bin]]
+name = "struct_demo"
+path = "src/bin/lifecycle_lab/struct_demo.rs"
+[[bin]]
+name = "func_demo"
+path = "src/bin/lifecycle_lab/func_demo.rs"
